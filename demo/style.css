@@ -1,0 +1,11 @@
+td {
+    background-color: #eeeeee;
+    color: #666666;
+    padding: 10px;
+}
+
+th {
+    background-color: #666666;
+    color: #eeeeee;
+    padding: 10px;
+}

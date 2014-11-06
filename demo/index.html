@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Sortable Table demo</title>
+		<meta name="Description" content="" />
+		<meta name="Keywords"  content="" />
+		<link rel="stylesheet" type="text/css" media="screen,print" href="style.css" />
+		<script type="text/javascript" src="../sortable.js"></script>
+	</head>
+	<body>
+		<h1>Sortable Table demo</h1>
+		<h2>demo1</h2>
+		<table class="sortable">
+    		<tr>
+		        <th>id</th>
+		        <th>商品名</th>
+		        <th>説明</th>
+				<th>在庫</th>
+		    </tr>
+		    <tr>
+		        <td>1</td>
+		        <td>RX100M3</td>
+        		<td>コンパクトデジタルカメラ</td>
+        		<td>5</td>
+    		</tr>
+    		<tr>
+        		<td>2</td>
+        		<td>MDR-1RBTMK2</td>
+        		<td>ヘッドホン</td>
+        		<td>7</td>
+    		</tr>
+    		<tr>
+        		<td>3</td>
+        		<td>HDR-AS100V</td>
+        		<td>アクションカム</td>
+        		<td>2</td>
+    		</tr>
+    		<tr>
+        		<td>4</td>
+        		<td>NEX-5T</td>
+        		<td>ミラーレスカメラ</td>
+        		<td>3</td>
+    		</tr>
+		</table>
+
+		<br>
+
+		<h2>demo2</h2>
+		<table class="sortable">
+    		<tr>
+        		<th>A</th>
+        		<th>B</th>
+        		<th>C</th>
+        		<th>D</th>
+        		<th>E</th>
+        		<th>F</th>
+    		</tr>
+    		<tr>
+        		<td>1</td>
+        		<td>6</td>
+        		<td>44</td>
+        		<td>8</td>
+        		<td>1</td>
+        		<td>8</td>
+    		</tr>
+    		<tr>
+        		<td>2</td>
+        		<td>4</td>
+        		<td>2</td>
+        		<td>62</td>
+        		<td>6</td>
+        		<td>9</td>
+    		</tr>
+    		<tr>
+        		<td>3</td>
+        		<td>5</td>
+        		<td>7</td>
+        		<td>0</td>
+        		<td>3</td>
+        		<td>6</td>
+    		</tr>
+    		<tr>
+        		<td>9</td>
+        		<td>50</td>
+        		<td>17</td>
+        		<td>7</td>
+        		<td>13</td>
+        		<td>6</td>
+    		</tr>
+    		<tr>
+        		<td>6</td>
+        		<td>2</td>
+        		<td>8</td>
+        		<td>4</td>
+        		<td>4</td>
+        		<td>5</td>
+    		</tr>
+		</table>
+
+		<script type="text/javascript">
+			$SortableTable.init("sortable");
+		</script>
+	</body>
+</html>
